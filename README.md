@@ -19,13 +19,17 @@ Several regression models were trained and evaluated to identify the best-perfor
 
 ## Dataset
 
+The dataset was provided as part of the following Maktabkhooneh course:
+
+[Machine Learning with Python — Maktabkhooneh](https://maktabkhooneh.org/course/%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%A7%D8%B4%DB%8C%D9%86-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-mk1318/)
+
+The original dataset source was identified as Kaggle:
+
+[House Price (Tehran, Iran)](https://www.kaggle.com/datasets/mokar2001/house-price-tehran-iran)
+
+The course version of the dataset intentionally contained missing and invalid values for data cleaning and preprocessing practice.
+
 The dataset contains approximately 3,500 residential property records collected from Tehran.
-
-The target variable is:
-
-* `Price(USD)`
-
-The original `Price` feature in Iranian Toman was excluded from the modeling process.
 
 During data preprocessing:
 
